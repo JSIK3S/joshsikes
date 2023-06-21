@@ -1,9 +1,12 @@
 import React, { useEffect } from 'react';
 import './App.css';
-import { Main } from './pages/Main';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { setFavicon } from './utils/setFavicon';
+import { AboutMe } from './components/AboutMe';
+import { Title } from './components/Title';
+import { Skills } from './components/Skills';
+import { Recommends } from './components/Recommends';
 
 function App() {
   // loads or updates favicon on page load
@@ -14,7 +17,10 @@ function App() {
   return (
     <div>
       <Header />
-      <Main />
+      <Title />
+      <AboutMe />
+      <Skills />
+      <Recommends />
       <Footer />
     </div>
   );

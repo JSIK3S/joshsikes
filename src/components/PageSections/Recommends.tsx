@@ -1,7 +1,7 @@
-import { Leon } from "./RecommendLinks/Leon";
-import { MacArthur } from "./RecommendLinks/MacArthur";
-import { Pragmatic } from "./RecommendLinks/Pragmatic";
-import { Quadratic } from "./RecommendLinks/Quadratic";
+import { Leon } from "../RecommendLinks/Leon";
+import { MacArthur } from "../RecommendLinks/MacArthur";
+import { Pragmatic } from "../RecommendLinks/Pragmatic";
+import { Quadratic } from "../RecommendLinks/Quadratic";
 
 function Recommends (){
   return (

@@ -1,7 +1,8 @@
 function Title (){
   return (
     <div>
-      <h1>Title Section</h1>
+      <h1>Joshua Sikes</h1>
+      <h3>Software Engineer</h3>
     </div>
   );
 };

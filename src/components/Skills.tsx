@@ -1,7 +1,7 @@
 function Skills (){
   return (
     <div>
-      <h2>Skills Section</h2>
+      <h2>My Skills, Languages, & Frameworks:</h2>
     </div>
   );
 };

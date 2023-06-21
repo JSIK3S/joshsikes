@@ -6,7 +6,7 @@ import { Quadratic } from "./RecommendLinks/Quadratic";
 function Recommends (){
   return (
     <div>
-      <h2>Recommends Section</h2>
+      <h2>Who I Recommend:</h2>
       <ul>
         <li>
           <Quadratic />

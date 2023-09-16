@@ -1,15 +1,19 @@
-import { Leon } from "../RecommendLinks/Leon";
-import { MacArthur } from "../RecommendLinks/MacArthur";
-import { Pragmatic } from "../RecommendLinks/Pragmatic";
-import { Quadratic } from "../RecommendLinks/Quadratic";
+import { BioJazz } from "../recommendLinks/BioJazz";
+import { Leon } from "../recommendLinks/Leon";
+import { MacArthur } from "../recommendLinks/MacArthur";
+import { Pragmatic } from "../recommendLinks/Pragmatic";
+import { Quadratic } from "../recommendLinks/Quadratic";
 
-function Recommends (){
+function Recommends() {
   return (
     <div>
       <h2>Who I Recommend:</h2>
       <ul>
         <li>
           <Quadratic />
+        </li>
+        <li>
+          <BioJazz />
         </li>
         <li>
           <MacArthur />
@@ -23,6 +27,6 @@ function Recommends (){
       </ul>
     </div>
   );
-};
+}
 
-export {Recommends};
+export { Recommends };

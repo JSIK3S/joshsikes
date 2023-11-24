@@ -1,11 +1,11 @@
-function Footer (){
+function Footer() {
   return (
-    <footer>
+    <footer className="h-40">
       <div>
         <h2>Footer Section</h2>
       </div>
     </footer>
   );
-};
+}
 
-export {Footer};
+export { Footer };

@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import "./App.css";
 import { Header } from "./components/pageSections/Header";
 import { Footer } from "./components/pageSections/Footer";
 import { setFavicon } from "./utils/setFavicon";

@@ -6,26 +6,28 @@ import { Quadratic } from "../recommendLinks/Quadratic";
 
 function Recommends() {
   return (
-    <div className="h-80 bg-slate-300">
+    <div className="h-screen bg-slate-300 flex items-center">
       <section id="recommends">
-        <h2>Who I Recommend:</h2>
-        <ul>
-          <li>
-            <Quadratic />
-          </li>
-          <li>
-            <BioJazz />
-          </li>
-          <li>
-            <MacArthur />
-          </li>
-          <li>
-            <Pragmatic />
-          </li>
-          <li>
-            <Leon />
-          </li>
-        </ul>
+        <h2 className="text-3xl mb-16">Who I Recommend:</h2>
+        <section>
+          <ul className="flex justify-items-center justify-between">
+            <li>
+              <Quadratic />
+            </li>
+            <li>
+              <BioJazz />
+            </li>
+            <li>
+              <MacArthur />
+            </li>
+            <li>
+              <Pragmatic />
+            </li>
+            <li>
+              <Leon />
+            </li>
+          </ul>
+        </section>
       </section>
     </div>
   );

@@ -1,7 +1,7 @@
 function AboutMe() {
   return (
     <div className="h-screen flex items-center bg-slate-300">
-      <section id="about">
+      <section id="about" className="m-8">
         <h2 className="mb-16 text-3xl">About Me:</h2>
         <p>
           This is the section where I talk about myself... what would you like

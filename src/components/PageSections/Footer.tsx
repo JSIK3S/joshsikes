@@ -3,8 +3,8 @@ import { LinkedInLink } from "../socialLinks/LinkedInLink";
 
 function Footer() {
   return (
-    <footer className="h-40">
-      <div>
+    <footer className="h-20">
+      <div className="flex">
         <section className="m-8">
           <LinkedInLink />
         </section>

@@ -4,11 +4,6 @@ function AboutMe() {
       <section id="about" className="m-8">
         <h2 className="mb-16 text-3xl">About Me:</h2>
         <p className="mb-8">
-          This is the section where I talk about myself... what would you like
-          to know? Am I interesting? Maybe, maybe not. But you're here, so I
-          guess I'll tell you anyway.
-        </p>
-        <p className="mb-8">
           After spending the first 11 years of my career working in Recruiting &
           Human Resources primarily focusing on recruiting technical talent, I
           finally decided to take the plunge myself to become a Software

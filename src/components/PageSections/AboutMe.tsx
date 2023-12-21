@@ -1,7 +1,7 @@
 function AboutMe() {
   return (
-    <div className="h-screen flex items-center bg-slate-300">
-      <section id="about" className="m-8">
+    <div className="h-screen flex items-center justify-between bg-slate-300">
+      <section id="about" className=" m-24">
         <h2 className="mb-16 text-3xl">About Me:</h2>
         <p className="mb-8 text-lg max-w-prose">
           After spending the first 11 years of my career working in Recruiting &
@@ -20,6 +20,13 @@ function AboutMe() {
           opportunity I had to become and engineer, and I've loved every second
           of it! Here's to learning more!
         </p>
+      </section>
+      <section className="m-24">
+        <img
+          src="/joshsikes/assets/profilepic.jpg"
+          alt="Josh Sikes Headshot Photo"
+          className="rounded-full border-4 border-black"
+        />
       </section>
     </div>
   );

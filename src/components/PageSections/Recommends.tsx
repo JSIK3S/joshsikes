@@ -8,7 +8,7 @@ function Recommends() {
   return (
     <div className="h-screen bg-slate-300 flex justify-center items-center">
       <section id="recommends">
-        <h2 className="text-3xl mb-16">Who I Recommend:</h2>
+        <h2 className="text-3xl mb-16 text-center">Who I Recommend:</h2>
         <section>
           <ul className="flex justify-items-center justify-between">
             <li className="m-4">

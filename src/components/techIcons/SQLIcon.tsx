@@ -4,7 +4,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const SQLIcon = () => {
   return (
     <div>
-      <FontAwesomeIcon icon={faDatabase} />
+      <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
+        <FontAwesomeIcon icon={faDatabase} size="2xl" />
+      </a>
     </div>
   );
 };

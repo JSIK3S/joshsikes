@@ -4,7 +4,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const HTML5Icon = () => {
   return (
     <div>
-      <FontAwesomeIcon icon={faHtml5} />
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <FontAwesomeIcon icon={faHtml5} size="2xl" />
+      </a>
     </div>
   );
 };

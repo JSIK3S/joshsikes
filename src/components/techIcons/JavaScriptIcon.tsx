@@ -4,7 +4,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const JavaScriptIcon = () => {
   return (
     <div>
-      <FontAwesomeIcon icon={faJs} />
+      <a href="https://javascript.info/" target="_blank" rel="noreferrer">
+        <FontAwesomeIcon icon={faJs} size="2xl" />
+      </a>
     </div>
   );
 };

@@ -4,7 +4,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const RubyIcon = () => {
   return (
     <div>
-      <FontAwesomeIcon icon={faGem} />
+      <a href="https://ruby-doc.org/" target="_blank" rel="noreferrer"></a>
+      <FontAwesomeIcon icon={faGem} size="2xl" />
     </div>
   );
 };

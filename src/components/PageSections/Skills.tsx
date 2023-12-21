@@ -24,8 +24,26 @@ function Skills() {
             <li>
               <RubyIcon />
             </li>
-            <li>Ts</li>
-            <li>Rails</li>
+            <li>
+              <a
+                href="https://www.typescriptlang.org/"
+                target="_blank"
+                rel="noreferrer"
+                className="text-2xl"
+              >
+                Ts
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://guides.rubyonrails.org/"
+                target="_blank"
+                rel="noreferrer"
+                className="text-2xl"
+              >
+                Rails
+              </a>
+            </li>
             <li>
               <ReactIcon />
             </li>

@@ -7,7 +7,7 @@ import { SQLIcon } from "../techIcons/SQLIcon";
 
 function Skills() {
   return (
-    <div className="h-screen flex justify-center items-center">
+    <div className="flex justify-center items-center h-[800px]">
       <section id="skills">
         <h2 className="text-3xl mb-16">My Skills, Languages, & Frameworks:</h2>
         <section>

@@ -3,7 +3,7 @@ function AboutMe() {
     <div className="h-screen flex flex-col-reverse items-center justify-around bg-slate-300 sm:flex-row">
       <section id="about" className="m-3 md:max-w-lg">
         <h2 className="mb-16 text-3xl">About Me:</h2>
-        <p className="mb-8 text-lg max-w-prose">
+        <p className="mb-8 text-base max-w-prose sm:text-lg">
           After spending the first 11 years of my career working in Recruiting &
           Human Resources primarily focusing on recruiting technical talent, I
           finally decided to take the plunge myself to become a Software
@@ -14,7 +14,7 @@ function AboutMe() {
           able to go through an extensive mentorship program designed to level
           up its junior engineers.
         </p>
-        <p className="mb-8 text-lg max-w-prose">
+        <p className="mb-8 text-base max-w-prose sm:text-lg">
           Since then I haven't looked back, and I've worked on websites,
           internal services, batch jobs, you name it! I'm super grateful for the
           opportunity I had to become and engineer, and I've loved every second

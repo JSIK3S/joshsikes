@@ -1,6 +1,6 @@
 function AboutMe() {
   return (
-    <div className="h-screen flex flex-col-reverse items-center justify-around bg-slate-300 sm:flex-row">
+    <div className="h-[1000px] flex flex-col-reverse items-center justify-around bg-slate-300 sm:flex-row">
       <section id="about" className="m-3 md:max-w-lg">
         <h2 className="mb-16 text-3xl">About Me:</h2>
         <p className="mb-8 text-base max-w-prose sm:text-lg">

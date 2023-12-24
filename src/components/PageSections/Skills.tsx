@@ -9,7 +9,9 @@ function Skills() {
   return (
     <div className="flex justify-center items-center h-[800px]">
       <section id="skills">
-        <h2 className="text-3xl mb-16">My Skills, Languages, & Frameworks:</h2>
+        <h2 className="text-3xl mb-16 text-center">
+          My Skills, Languages, & Frameworks:
+        </h2>
         <section>
           <ul className="flex justify-items-center justify-between">
             <li>

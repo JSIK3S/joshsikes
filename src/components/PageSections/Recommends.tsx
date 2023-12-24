@@ -6,7 +6,7 @@ import { Quadratic } from "../recommendLinks/Quadratic";
 
 function Recommends() {
   return (
-    <div className=" bg-slate-300 flex justify-center items-center h-[800px]">
+    <div className=" bg-[#E6E8E6] flex justify-center items-center h-[800px]">
       <section id="recommends">
         <h2 className="text-3xl mb-16 text-center">Who I Recommend:</h2>
         <section>

@@ -9,7 +9,11 @@ const HTML5Icon = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <FontAwesomeIcon icon={faHtml5} size="2xl" />
+        <FontAwesomeIcon
+          icon={faHtml5}
+          size="2xl"
+          className="hover:text-[#DF2935]"
+        />
       </a>
     </div>
   );

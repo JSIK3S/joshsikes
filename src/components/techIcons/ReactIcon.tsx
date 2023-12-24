@@ -5,7 +5,11 @@ const ReactIcon = () => {
   return (
     <div>
       <a href="https://react.dev/" target="_blank" rel="noreferrer">
-        <FontAwesomeIcon icon={faReact} size="2xl" />
+        <FontAwesomeIcon
+          icon={faReact}
+          size="2xl"
+          className="hover:text-[#DF2935]"
+        />
       </a>
     </div>
   );

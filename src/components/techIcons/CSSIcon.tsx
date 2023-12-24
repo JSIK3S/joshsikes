@@ -9,7 +9,11 @@ const CSSIcon = () => {
         target="blank"
         rel="noreferrer"
       >
-        <FontAwesomeIcon icon={faCss3} size="2xl" />
+        <FontAwesomeIcon
+          icon={faCss3}
+          size="2xl"
+          className="hover:text-[#DF2935]"
+        />
       </a>
     </div>
   );

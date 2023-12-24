@@ -5,7 +5,11 @@ const SQLIcon = () => {
   return (
     <div>
       <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
-        <FontAwesomeIcon icon={faDatabase} size="2xl" />
+        <FontAwesomeIcon
+          icon={faDatabase}
+          size="2xl"
+          className="hover:text-[#DF2935]"
+        />
       </a>
     </div>
   );

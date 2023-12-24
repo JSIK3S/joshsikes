@@ -31,7 +31,7 @@ function Skills() {
                 href="https://www.typescriptlang.org/"
                 target="_blank"
                 rel="noreferrer"
-                className="text-2xl"
+                className="text-2xl hover:text-[#DF2935]"
               >
                 Ts
               </a>
@@ -41,7 +41,7 @@ function Skills() {
                 href="https://guides.rubyonrails.org/"
                 target="_blank"
                 rel="noreferrer"
-                className="text-2xl"
+                className="text-2xl hover:text-[#DF2935]"
               >
                 Rails
               </a>

@@ -4,7 +4,7 @@ const Leon = () => {
       href="https://leonnoel.com/100devs/"
       target="_blank"
       rel="noreferrer"
-      className="visited:text-blue-800 text-blue-600"
+      className="visited:text-[#0E1C36] text-[#487DC0]"
     >
       #100Devs
     </a>

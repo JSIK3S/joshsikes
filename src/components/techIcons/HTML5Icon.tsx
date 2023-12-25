@@ -12,7 +12,7 @@ const HTML5Icon = () => {
         <FontAwesomeIcon
           icon={faHtml5}
           size="2xl"
-          className="hover:text-[#DF2935]"
+          className="hover:text-[#DF2935] hover:animate-bounce"
         />
       </a>
     </div>

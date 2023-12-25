@@ -5,7 +5,7 @@ function Nav() {
     <nav className="fixed top-0 left-0 right-0 bg-[#487DC0] text-white font-semibold p-4">
       <ul className="flex space-x-4">
         <li>
-          <Link to="main" smooth={true} duration={500}>
+          <Link to="main" smooth={true} duration={500} offset={-50}>
             Main
           </Link>
         </li>

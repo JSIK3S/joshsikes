@@ -8,7 +8,7 @@ const ReactIcon = () => {
         <FontAwesomeIcon
           icon={faReact}
           size="2xl"
-          className="hover:text-[#DF2935]"
+          className="hover:text-[#DF2935] hover:animate-bounce"
         />
       </a>
     </div>

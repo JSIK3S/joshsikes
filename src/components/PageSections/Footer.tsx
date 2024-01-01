@@ -1,3 +1,4 @@
+import { GitLabProfileLink } from "../socialLinks/GitLabProfileLink";
 import { GithubProfileLink } from "../socialLinks/GithubProfileLink";
 import { LinkedInLink } from "../socialLinks/LinkedInLink";
 
@@ -10,6 +11,9 @@ function Footer() {
         </section>
         <section className="m-8">
           <GithubProfileLink />
+        </section>
+        <section className="m-8">
+          <GitLabProfileLink />
         </section>
       </div>
     </footer>

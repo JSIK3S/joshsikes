@@ -20,6 +20,10 @@ function AboutMe() {
           opportunity I had to become and engineer, and I've loved every second
           of it! Here's to learning more!
         </p>
+        <p className="mb-8 text-base max-w-prose sm:text-lg">
+          This site is a simple React application written in TypeScript. It
+          utilizes TailwindCss, and it is hosted on GitHub Pages.
+        </p>
       </section>
       <section className="m-3 md:max-w-lg">
         <img

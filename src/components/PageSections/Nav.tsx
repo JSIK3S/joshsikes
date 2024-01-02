@@ -9,17 +9,17 @@ function Nav() {
       <div>
         <ul className="flex space-x-4">
           <li>
-            <Link to="main" smooth={true} duration={500} offset={-50}>
+            <Link to="main" smooth={true} duration={500} offset={-800}>
               Main
             </Link>
           </li>
           <li>
-            <Link to="about" smooth={true} duration={500}>
+            <Link to="about" smooth={true} duration={500} offset={-200}>
               About
             </Link>
           </li>
           <li>
-            <Link to="skills" smooth={true} duration={500}>
+            <Link to="skills" smooth={true} duration={500} offset={-450}>
               Skills
             </Link>
           </li>

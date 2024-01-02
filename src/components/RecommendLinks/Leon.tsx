@@ -1,13 +1,15 @@
 const Leon = () => {
   return (
-    <a
-      href="https://leonnoel.com/100devs/"
-      target="_blank"
-      rel="noreferrer"
-      className="visited:text-[#0E1C36] text-[#487DC0]"
-    >
-      #100Devs
-    </a>
+    <button className="rounded-full bg-[#487DC0] p-2">
+      <a
+        href="https://leonnoel.com/100devs/"
+        target="_blank"
+        rel="noreferrer"
+        className="text-white"
+      >
+        #100Devs
+      </a>
+    </button>
   );
 };
 

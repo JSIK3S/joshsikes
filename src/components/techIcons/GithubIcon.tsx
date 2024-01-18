@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const GithubIcon = () => {
   return (
     <div>
-      <a href="" target="blank" rel="noreferrer">
+      <a href="https://github.com/JSIK3S" target="blank" rel="noreferrer">
         <FontAwesomeIcon icon={faGithub} size="2xl" className="" />
       </a>
     </div>

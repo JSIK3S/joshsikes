@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import { Header } from "./components/pageSections/Header";
 import { Footer } from "./components/pageSections/Footer";
 import { setFavicon } from "./utils/setFavicon";
@@ -13,13 +13,20 @@ function App() {
     setFavicon();
   }, []);
 
+  const navRefs: Record<string, React.RefObject<HTMLDivElement>> = {
+    main: useRef(null),
+    about: useRef(null),
+    skills: useRef(null),
+    recommends: useRef(null),
+  };
+
   return (
     <div>
-      <Header />
-      <Title />
-      <AboutMe />
-      <Skills />
-      <Recommends />
+      <Header navRefs={navRefs} />
+      <Title refs={navRefs} />
+      <AboutMe refs={navRefs} />
+      <Skills refs={navRefs} />
+      <Recommends refs={navRefs} />
       <Footer />
     </div>
   );

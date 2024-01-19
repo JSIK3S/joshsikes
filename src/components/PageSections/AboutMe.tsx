@@ -1,7 +1,14 @@
-function AboutMe() {
+function AboutMe({
+  refs,
+}: {
+  refs: Record<string, React.RefObject<HTMLDivElement>>;
+}) {
   return (
-    <div className="h-[1000px] flex flex-col-reverse items-center justify-around bg-[#E6E8E6] sm:flex-row">
-      <section id="about" className="m-3 md:max-w-lg">
+    <div
+      ref={refs.about}
+      className="h-[1000px] flex flex-col-reverse items-center justify-around bg-[#E6E8E6] sm:flex-row"
+    >
+      <section className="m-3 md:max-w-lg">
         <h2 className="mb-16 text-3xl">About Me:</h2>
         <p className="mb-8 text-base max-w-prose sm:text-lg">
           After spending the first 11 years of my career working in Recruiting &

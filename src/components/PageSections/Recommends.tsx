@@ -4,10 +4,17 @@ import { MacArthur } from "../recommendLinks/MacArthur";
 import { Pragmatic } from "../recommendLinks/Pragmatic";
 import { Quadratic } from "../recommendLinks/Quadratic";
 
-function Recommends() {
+function Recommends({
+  refs,
+}: {
+  refs: Record<string, React.RefObject<HTMLDivElement>>;
+}) {
   return (
-    <div className=" bg-[#E6E8E6] flex justify-center items-center h-[800px]">
-      <section id="recommends">
+    <div
+      ref={refs.recommends}
+      className=" bg-[#E6E8E6] flex justify-center items-center h-[800px]"
+    >
+      <section>
         <h2 className="text-3xl mb-16 text-center">Who I Recommend:</h2>
         <section>
           <ul className="flex flex-col justify-items-center justify-between sm:flex-row">

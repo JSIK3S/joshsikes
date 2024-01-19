@@ -5,10 +5,17 @@ import { ReactIcon } from "../techIcons/ReactIcon";
 import { RubyIcon } from "../techIcons/RubyIcon";
 import { SQLIcon } from "../techIcons/SQLIcon";
 
-function Skills() {
+function Skills({
+  refs,
+}: {
+  refs: Record<string, React.RefObject<HTMLDivElement>>;
+}) {
   return (
-    <div className="flex justify-center items-center h-[800px]">
-      <section id="skills">
+    <div
+      ref={refs.skills}
+      className="flex justify-center items-center h-[800px]"
+    >
+      <section>
         <h2 className="text-3xl mb-16 text-center">
           My Skills, Languages, & Frameworks:
         </h2>

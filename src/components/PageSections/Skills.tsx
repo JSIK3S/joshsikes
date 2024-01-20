@@ -21,10 +21,10 @@ function Skills({
         </h2>
         <section>
           <ul className="flex items-center justify-between flex-wrap">
-            <li className="m-6">
+            <li className="m-7">
               <RubyIcon />
             </li>
-            <li className="m-6">
+            <li className="m-7">
               <a
                 href="https://guides.rubyonrails.org/"
                 target="_blank"
@@ -37,7 +37,7 @@ function Skills({
                 />
               </a>
             </li>
-            <li className="m-6">
+            <li className="m-7">
               <a
                 href="https://www.typescriptlang.org/"
                 target="_blank"
@@ -50,19 +50,19 @@ function Skills({
                 />
               </a>
             </li>
-            <li className="m-6">
+            <li className="m-7">
               <ReactIcon />
             </li>
-            <li className="m-6">
+            <li className="m-7">
               <JavaScriptIcon />
             </li>
-            <li className="m-6">
+            <li className="m-7">
               <HTML5Icon />
             </li>
-            <li className="m-6">
+            <li className="m-7">
               <CSSIcon />
             </li>
-            <li className="m-6">
+            <li className="m-7">
               <SQLIcon />
             </li>
           </ul>

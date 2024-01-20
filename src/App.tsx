@@ -6,6 +6,7 @@ import { AboutMe } from "./components/pageSections/AboutMe";
 import { Title } from "./components/pageSections/Title";
 import { Skills } from "./components/pageSections/Skills";
 import { Recommends } from "./components/pageSections/Recommends";
+import { ScrollToTopIcon } from "./components/ScrollToTopIcon";
 
 function App() {
   // loads or updates favicon on page load
@@ -22,6 +23,7 @@ function App() {
 
   return (
     <div>
+      <ScrollToTopIcon />
       <Header navRefs={navRefs} />
       <Title refs={navRefs} />
       <AboutMe refs={navRefs} />

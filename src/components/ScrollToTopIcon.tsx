@@ -23,12 +23,13 @@ function ScrollToTopIcon() {
   };
 
   return (
-    <div className="fixed bottom-4 right-5">
+    <div className="fixed bottom-6 right-8">
       {showScrollToTopIcon && (
         <FontAwesomeIcon
           icon={faChevronCircleUp}
           onClick={scrollTop}
           size="2xl"
+          className="hover:text-[#DF2935]"
         />
       )}
     </div>

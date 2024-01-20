@@ -22,29 +22,7 @@ function Skills({
         <section>
           <ul className="flex items-center justify-between flex-wrap">
             <li className="m-6">
-              <HTML5Icon />
-            </li>
-            <li className="m-6">
-              <CSSIcon />
-            </li>
-            <li className="m-6">
-              <JavaScriptIcon />
-            </li>
-            <li className="m-6">
               <RubyIcon />
-            </li>
-            <li className="m-6">
-              <a
-                href="https://www.typescriptlang.org/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img
-                  src="/joshsikes/assets/typescript-32.png"
-                  alt="TypeScript"
-                  className="hover:animate-bounce"
-                />
-              </a>
             </li>
             <li className="m-6">
               <a
@@ -60,7 +38,29 @@ function Skills({
               </a>
             </li>
             <li className="m-6">
+              <a
+                href="https://www.typescriptlang.org/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="/joshsikes/assets/typescript-32.png"
+                  alt="TypeScript"
+                  className="hover:animate-bounce"
+                />
+              </a>
+            </li>
+            <li className="m-6">
               <ReactIcon />
+            </li>
+            <li className="m-6">
+              <JavaScriptIcon />
+            </li>
+            <li className="m-6">
+              <HTML5Icon />
+            </li>
+            <li className="m-6">
+              <CSSIcon />
             </li>
             <li className="m-6">
               <SQLIcon />

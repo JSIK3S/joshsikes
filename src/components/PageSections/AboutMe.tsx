@@ -24,7 +24,7 @@ function AboutMe({
         <p className="mb-8 text-base max-w-prose sm:text-lg">
           Since then I haven't looked back, and I've worked on websites,
           internal services, batch jobs, you name it! I'm super grateful for the
-          opportunity I had to become and engineer, and I've loved every second
+          opportunity I had to become an engineer, and I've loved every second
           of it! Here's to learning more!
         </p>
         <p className="mb-8 text-base max-w-prose sm:text-lg">

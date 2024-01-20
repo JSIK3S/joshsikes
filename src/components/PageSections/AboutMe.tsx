@@ -35,7 +35,7 @@ function AboutMe({
       <section className="m-3 md:max-w-lg">
         <img
           src="/joshsikes/assets/profilepic.jpg"
-          alt="Josh Sikes Headshot Photo"
+          alt="Josh Sikes Headshot"
           className="rounded-full border-4 border-black"
         />
       </section>

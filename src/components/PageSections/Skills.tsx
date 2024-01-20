@@ -20,43 +20,50 @@ function Skills({
           My Skills, Languages, & Frameworks:
         </h2>
         <section>
-          <ul className="flex justify-items-center justify-between">
-            <li>
+          <ul className="flex items-center justify-between flex-wrap">
+            <li className="m-5">
               <HTML5Icon />
             </li>
-            <li>
+            <li className="m-5">
               <CSSIcon />
             </li>
-            <li>
+            <li className="m-5">
               <JavaScriptIcon />
             </li>
-            <li>
+            <li className="m-5">
               <RubyIcon />
             </li>
-            <li>
+            <li className="m-5">
               <a
                 href="https://www.typescriptlang.org/"
                 target="_blank"
                 rel="noreferrer"
-                className="text-2xl hover:text-[#DF2935] hover:animate-bounce"
               >
-                Ts
+                <img
+                  src="/joshsikes/assets/typescript-32.png"
+                  alt="TypeScript"
+                  className="hover:animate-bounce"
+                />
               </a>
+              <img src="" alt="" />
             </li>
-            <li>
+            <li className="m-5">
               <a
                 href="https://guides.rubyonrails.org/"
                 target="_blank"
                 rel="noreferrer"
-                className="text-2xl hover:text-[#DF2935] hover:animate-bounce"
               >
-                Rails
+                <img
+                  src="/joshsikes/assets/rails_40.png"
+                  alt="Ruby on Rails"
+                  className="hover:animate-bounce"
+                />
               </a>
             </li>
-            <li>
+            <li className="m-5">
               <ReactIcon />
             </li>
-            <li>
+            <li className="m-5">
               <SQLIcon />
             </li>
           </ul>

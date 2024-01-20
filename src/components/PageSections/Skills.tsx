@@ -45,7 +45,6 @@ function Skills({
                   className="hover:animate-bounce"
                 />
               </a>
-              <img src="" alt="" />
             </li>
             <li className="m-5">
               <a

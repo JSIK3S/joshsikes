@@ -1,9 +1,9 @@
-import { GitLabProfileLink } from "../socialLinks/GitLabProfileLink";
-import { GithubProfileLink } from "../socialLinks/GithubProfileLink";
-import { LinkedInLink } from "../socialLinks/LinkedInLink";
-import { GitLabIcon } from "../techIcons/GitLabIcon";
-import { GithubIcon } from "../techIcons/GithubIcon";
-import { LinkedInIcon } from "../techIcons/LinkedInIcon";
+import {
+  GitLabProfileLink,
+  GithubProfileLink,
+  LinkedInLink,
+} from "../socialLinks";
+import { GitLabIcon, GithubIcon, LinkedInIcon } from "../techIcons";
 
 function Footer() {
   return (

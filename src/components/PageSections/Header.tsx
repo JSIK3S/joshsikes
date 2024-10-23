@@ -1,6 +1,4 @@
-import { GithubIcon } from "../techIcons/GithubIcon";
-import { GitLabIcon } from "../techIcons/GitLabIcon";
-import { LinkedInIcon } from "../techIcons/LinkedInIcon";
+import { GithubIcon, GitLabIcon, LinkedInIcon } from "../techIcons";
 import { Link } from "react-router-dom";
 
 function Header() {

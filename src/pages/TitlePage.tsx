@@ -1,4 +1,4 @@
-import { Header } from "../components/pageSections/Header";
+import { Header, Footer } from "../components/pageSections";
 
 function TitlePage() {
   return (
@@ -10,6 +10,7 @@ function TitlePage() {
           <h3 className="text-3xl m-16 italic">Software Engineer</h3>
         </section>
       </div>
+      <Footer />
     </>
   );
 }

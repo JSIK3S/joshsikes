@@ -1,4 +1,4 @@
-import { Header } from "../components/pageSections/Header";
+import { Header, Footer } from "../components/pageSections";
 
 function AboutMePage() {
   return (
@@ -37,6 +37,7 @@ function AboutMePage() {
           />
         </section>
       </div>
+      <Footer />
     </>
   );
 }

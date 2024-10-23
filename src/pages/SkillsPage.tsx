@@ -1,4 +1,4 @@
-import { Header } from "../components/pageSections/Header";
+import { Header, Footer } from "../components/pageSections";
 import {
   RubyIcon,
   ReactIcon,
@@ -67,6 +67,7 @@ function SkillsPage() {
           </section>
         </section>
       </div>
+      <Footer />
     </>
   );
 }

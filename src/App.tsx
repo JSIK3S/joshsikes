@@ -1,12 +1,10 @@
-import React, { useEffect, useRef } from "react";
-import { Header } from "./components/pageSections/Header";
-import { Footer } from "./components/pageSections/Footer";
+import { useEffect } from "react";
 import { setFavicon } from "./utils/setFavicon";
-import { AboutMe } from "./components/pageSections/AboutMe";
-import { Title } from "./components/pageSections/Title";
-import { Skills } from "./components/pageSections/Skills";
-import { Recommends } from "./components/pageSections/Recommends";
-import { ScrollToTopIcon } from "./components/ScrollToTopIcon";
+import { Route, Routes } from "react-router-dom";
+import { TitlePage } from "./pages/TitlePage";
+import { AboutMePage } from "./pages/AboutMePage";
+import { RecommendationsPage } from "./pages/RecommendationsPage";
+import { SkillsPage } from "./pages/SkillsPage";
 
 function App() {
   // loads or updates favicon on page load
@@ -14,22 +12,14 @@ function App() {
     setFavicon();
   }, []);
 
-  const navRefs: Record<string, React.RefObject<HTMLDivElement>> = {
-    main: useRef(null),
-    about: useRef(null),
-    skills: useRef(null),
-    recommends: useRef(null),
-  };
-
   return (
     <div>
-      <ScrollToTopIcon />
-      <Header navRefs={navRefs} />
-      <Title refs={navRefs} />
-      <AboutMe refs={navRefs} />
-      <Skills refs={navRefs} />
-      <Recommends refs={navRefs} />
-      <Footer />
+      <Routes>
+        <Route path="" Component={TitlePage} />
+        <Route path="/about" Component={AboutMePage} />
+        <Route path="/recommends" Component={RecommendationsPage} />
+        <Route path="/skills" Component={SkillsPage} />
+      </Routes>
     </div>
   );
 }

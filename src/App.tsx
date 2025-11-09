@@ -1,10 +1,13 @@
 import { useEffect } from "react";
 import { setFavicon } from "./utils/setFavicon";
 import { Route, Routes } from "react-router-dom";
-import { TitlePage } from "./pages/TitlePage";
-import { AboutMePage } from "./pages/AboutMePage";
-import { RecommendationsPage } from "./pages/RecommendationsPage";
-import { SkillsPage } from "./pages/SkillsPage";
+import {
+  AboutMePage,
+  HomePage,
+  RecommendationsPage,
+  SkillsPage,
+  TitlePage,
+} from "./pages";
 
 function App() {
   // loads or updates favicon on page load

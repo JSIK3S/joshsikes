@@ -6,7 +6,7 @@ function Header() {
   const { width } = useWindowSize();
 
   return (
-    <header className="bg-[#487DC0]">
+    <header className="bg-[#487DC0] mb-4">
       <nav className="bg-[#487DC0] text-white font-semibold p-4 flex justify-between">
         {width > 480 ? <DesktopMenu /> : <MobileMenu />}
         <div className="hidden sm:flex space-x-4">

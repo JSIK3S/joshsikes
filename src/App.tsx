@@ -18,7 +18,7 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route path="" Component={TitlePage} />
+        <Route path="" Component={HomePage} />
         <Route path="/about" Component={AboutMePage} />
         <Route path="/recommends" Component={RecommendationsPage} />
         <Route path="/skills" Component={SkillsPage} />

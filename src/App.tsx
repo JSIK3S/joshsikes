@@ -1,13 +1,7 @@
 import { useEffect } from "react";
 import { setFavicon } from "./utils/setFavicon";
 import { Route, Routes } from "react-router-dom";
-import {
-  AboutMePage,
-  HomePage,
-  RecommendationsPage,
-  SkillsPage,
-  TitlePage,
-} from "./pages";
+import { AboutMePage, HomePage, RecommendationsPage } from "./pages";
 
 function App() {
   // loads or updates favicon on page load
@@ -21,7 +15,6 @@ function App() {
         <Route path="" Component={HomePage} />
         <Route path="/about" Component={AboutMePage} />
         <Route path="/recommends" Component={RecommendationsPage} />
-        <Route path="/skills" Component={SkillsPage} />
       </Routes>
     </div>
   );

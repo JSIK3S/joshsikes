@@ -32,9 +32,7 @@ function TagSection({ title, tags }: Readonly<TagSectionContent>) {
   return (
     <div className="space-y-3 mb-8">
       {/* Optional: show the section title */}
-      {title && (
-        <h3 className="text-lg font-semibold text-gray-800">{title}</h3>
-      )}
+      {title && <p className="text-lg font-semibold text-gray-800">{title}</p>}
 
       <div className="flex flex-wrap gap-2">
         {tags.map((tag) => (

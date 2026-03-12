@@ -36,6 +36,11 @@ function ProfileSection() {
             alt="Josh Sikes Headshot"
             className="rounded-full border-4 border-black sm:max-h-[200px] sm:max-w-[200px] mb-8"
           />
+          <div className="flex flex-col items-start mb-8 w-full">
+            <p className="text-lg font-semibold text-gray-800">Josh Sikes</p>
+            <p>3.5 years of software experience</p>
+            <p>Nashville, TN</p>
+          </div>
           <div>
             <TagSection {...skillsSection} />
             <TagSection {...toolsSection} />

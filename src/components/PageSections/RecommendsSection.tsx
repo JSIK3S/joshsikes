@@ -1,23 +1,35 @@
-import { Quadratic, BioJazz, Pragmatic, Leon } from "../recommendLinks";
+import { RecommendationTag } from "../RecommendationTag";
 
 function RecommendsSection() {
   return (
     <div className="sm:max-w-xl">
       <div className="bg-[#487DC0] text-white rounded-lg p-7 sm:p-8">
-        <p className="text-xl mb-4">Resource I use and Recommend:</p>
+        <p className="text-xl mb-4">Resources I use and Recommend:</p>
         <section>
           <ul className="flex flex-col justify-items-center justify-between">
             <li className="m-4">
-              <Quadratic />
+              <RecommendationTag
+                displayText="DeathByQuadratic"
+                linkAddress="https://www.deathbyquadratic.com/"
+              />
             </li>
             <li className="m-4">
-              <BioJazz />
+              <RecommendationTag
+                displayText="Biodigital Jazz"
+                linkAddress="https://www.biodigitaljazz.tech/"
+              />
             </li>
             <li className="m-4">
-              <Pragmatic />
+              <RecommendationTag
+                displayText="Pragmatic Studio"
+                linkAddress="https://pragmaticstudio.com/"
+              />
             </li>
             <li className="m-4">
-              <Leon />
+              <RecommendationTag
+                displayText="#100Devs"
+                linkAddress="https://leonnoel.com/100devs/"
+              />
             </li>
           </ul>
         </section>

@@ -30,15 +30,16 @@ function ProfileSection() {
   return (
     <div className="sm:max-w-md">
       <div className="bg-gray-200 text-gray-900 rounded-lg sm:mx-auto h-fit sticky top-2 mb-8 sm:mb-16">
-        <div className="p-7 sm:p-8">
+        <div className="flex flex-col items-center p-7 sm:p-8 mb-8">
           <img
             src="/joshsikes/assets/profilepic.jpg"
             alt="Josh Sikes Headshot"
             className="rounded-full border-4 border-black sm:max-h-[200px] sm:max-w-[200px] mb-8"
           />
-
-          <TagSection {...skillsSection} />
-          <TagSection {...toolsSection} />
+          <div>
+            <TagSection {...skillsSection} />
+            <TagSection {...toolsSection} />
+          </div>
         </div>
       </div>
     </div>

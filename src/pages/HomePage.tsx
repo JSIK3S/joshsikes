@@ -6,23 +6,50 @@ import {
   SummarySection,
   TitleSection,
 } from "../components";
+import { useWindowSize } from "../hooks";
 
-function HomePage() {
+function MobileView() {
   return (
     <>
-      <Header />
-      <div className="px-12">
-        <TitleSection />
-        <div className="mx-auto flex gap-6 max-w-[1200px] justify-center">
-          <ProfileSection />
-          <div className="flex-col">
+      <div className="mx-auto flex justify-center">
+        <ProfileSection />
+      </div>
+      <div className="flex">
+        <div className="mx-auto flex">
+          <div className="max-w-[792px] mx-auto">
             <SummarySection />
             <RecommendsSection />
           </div>
         </div>
       </div>
-      <Footer />
     </>
+  );
+}
+
+function DesktopView() {
+  return (
+    <div className="mx-auto flex gap-4 max-w-[1200px]">
+      <ProfileSection />
+      <div className="max-w-[792px] mx-auto">
+        <SummarySection />
+        <RecommendsSection />
+      </div>
+    </div>
+  );
+}
+
+function HomePage() {
+  const windowWidth = useWindowSize().width;
+
+  return (
+    <div>
+      <Header />
+      <div className="mx-4 mb-4">
+        <TitleSection />
+        {windowWidth < 600 ? <MobileView /> : <DesktopView />}
+      </div>
+      <Footer />
+    </div>
   );
 }
 

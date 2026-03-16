@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function SummarySection() {
   return (
-    <div className="sm:max-w-xl">
+    <div>
       <div className="bg-gray-200 text-gray-900 rounded-lg mb-8 p-7 sm:p-8">
         <p className="text-2xl mb-8">Hi, I'm Josh!</p>
         <p className="text-xl mb-4">

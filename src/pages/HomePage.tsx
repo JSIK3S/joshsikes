@@ -28,7 +28,7 @@ function MobileView() {
 
 function DesktopView() {
   return (
-    <div className="mx-auto flex gap-4 max-w-[1200px]">
+    <div className="mx-auto flex gap-8 max-w-[1200px]">
       <ProfileSection />
       <div className="max-w-[792px] mx-auto">
         <SummarySection />

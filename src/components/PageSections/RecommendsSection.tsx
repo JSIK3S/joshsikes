@@ -2,7 +2,7 @@ import { RecommendationTag } from "../RecommendationTag";
 
 function RecommendsSection() {
   return (
-    <div className="sm:max-w-xl">
+    <div>
       <div className="bg-[#487DC0] text-white rounded-lg p-7 sm:p-8">
         <p className="text-xl mb-4">Resources I use and Recommend:</p>
         <section>

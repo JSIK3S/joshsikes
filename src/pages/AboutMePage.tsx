@@ -4,7 +4,7 @@ function AboutMePage() {
   return (
     <>
       <Header />
-      <div className="h-[1000px] flex flex-col-reverse items-center justify-around bg-[#E6E8E6] sm:flex-row">
+      <div className="max-w-[1200px] my-20 mx-auto flex flex-col-reverse items-center justify-around lg:flex-row gap-8">
         <section className="m-3 md:max-w-lg">
           <h2 className="mb-16 text-3xl">About Me:</h2>
           <p className="mb-8 text-base max-w-prose sm:text-lg">

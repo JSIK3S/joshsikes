@@ -54,7 +54,7 @@ function RecommendsSection() {
             </li>
             <li className="m-4">
               <RecommendationTag
-                displayText="Continuous Discovery Habits"
+                displayText="Discovery Habits"
                 linkAddress=""
               />
             </li>

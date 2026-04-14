@@ -16,7 +16,7 @@ function Tag({ skillText, linkAddress }: ProfileTag) {
       rel="noopener noreferrer"
       className="
         inline-flex items-center px-3 py-1 
-        rounded-full bg-gray-400 text-gray-800 
+        rounded-full bg-gray-400 text-white hover:text-[#487DC0] 
         text-sm font-medium
         hover:bg-gray-300 transition-colors
       "

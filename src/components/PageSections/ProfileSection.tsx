@@ -1,7 +1,7 @@
 import { TagSection, ProfileTag, TagSectionContent } from "../TagSection";
 
 const skillsSection: TagSectionContent = {
-  title: "My Top Skills:",
+  title: "My Technologies:",
   tags: [
     { skillText: "React", linkAddress: "https://react.dev" },
     { skillText: "TypeScript", linkAddress: "https://typescriptlang.org" },
@@ -15,8 +15,12 @@ const skillsSection: TagSectionContent = {
 };
 
 const toolsSection: TagSectionContent = {
-  title: "Tools I Use:",
+  title: "My Tools:",
   tags: [
+    {
+      skillText: "Claude Code",
+      linkAddress: "https://claude.com/product/claude-code",
+    },
     { skillText: "AWS", linkAddress: "https://aws.amazon.com/" },
     { skillText: "Dynatrace", linkAddress: "https://www.dynatrace.com/" },
     {
@@ -38,7 +42,7 @@ function ProfileSection() {
           />
           <div className="flex flex-col items-start mb-8 w-full">
             <p className="text-lg font-semibold text-gray-800">Josh Sikes</p>
-            <p>3.5 years of software experience</p>
+            <p>4 years of software experience</p>
             <p>Nashville, TN</p>
           </div>
           <div>

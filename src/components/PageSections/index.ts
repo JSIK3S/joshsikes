@@ -4,3 +4,4 @@ export * from "./TitleSection";
 export * from "./ProfileSection";
 export * from "./RecommendsSection";
 export * from "./SummarySection";
+export * from "./RecentWorkSection";

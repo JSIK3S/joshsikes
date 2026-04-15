@@ -5,6 +5,7 @@ import {
   RecommendsSection,
   SummarySection,
   TitleSection,
+  RecentWorkSection,
 } from "../components";
 import { useWindowSize } from "../hooks";
 
@@ -18,6 +19,7 @@ function MobileView() {
         <div className="mx-auto flex">
           <div className="max-w-[792px] mx-auto">
             <SummarySection />
+            <RecentWorkSection />
             <RecommendsSection />
           </div>
         </div>
@@ -32,6 +34,7 @@ function DesktopView() {
       <ProfileSection />
       <div className="max-w-[792px] mx-auto">
         <SummarySection />
+        <RecentWorkSection />
         <RecommendsSection />
       </div>
     </div>

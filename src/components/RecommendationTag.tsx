@@ -5,7 +5,7 @@ interface RecommendationTagProps {
 
 function RecommendationTag(props: RecommendationTagProps) {
   return (
-    <button className="rounded-full bg-gray-200 p-2 w-40 hover:bg-gray-300 transition-colors">
+    <button className="rounded-full bg-gray-200 p-2 w-40 hover:bg-gray-300 transition-colors drop-shadow-lg">
       <a
         href={props.linkAddress}
         target="_blank"
